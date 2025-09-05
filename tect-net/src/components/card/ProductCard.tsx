@@ -60,7 +60,7 @@ export default function ProductCard({
 
   return (
     <article
-      className={`max-w-sm bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-200 ${className}`}
+      className={`max-w-sm bg-white rounded-2xl shadow-md w-[300px] overflow-hidden hover:shadow-xl transition-shadow duration-200 ${className}`}
       aria-labelledby={`product-${product.id}-title`}
       role="group"
     >
