@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: product-api # 👈 your Blueprint Name (you can change to MdOmarShahariar if you like)
+    runtime: node
+    plan: free
+    branch: main # 👈 deploy from the main branch
+    buildCommand: "npm install"
+    startCommand: "npm run start"
+    autoDeploy: true
